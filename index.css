@@ -1,0 +1,430 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+nav ul a{
+    text-decoration: none;
+    color:black;
+
+}
+nav
+{
+    display:flex;
+    gap: 20px;
+   align-items: center;
+   justify-content: space-between;
+   margin:0px 120px;
+}
+nav ul{
+    display:flex;
+    
+    align-items: center;
+}
+nav ul li
+{
+margin-right: 50px;
+font-size: 20px;
+}
+span{
+    color:chocolate;
+}
+h3{
+    font-size: 45px;
+    font-weight: 800;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    padding:18px 36px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn2{
+    padding:18px 36px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#ffffff;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#subtitle{
+    font-size: 40px;
+    font-weight: 300;
+}
+#title{
+    font-size: 70px;
+    font-weight: bold;
+}
+#hero1{
+    width:780px;
+}
+#des
+{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+#hero
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 40px 60px 120px;
+    gap: 50px;
+}
+#hero img{
+    width: 400px;
+    
+}
+header{
+    background-color: #FFF8F3;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+header{
+    background-image: url("developer.png"),url("header_bg.png");
+    background-position: top left,bottom right;
+    background-repeat: no-repeat;
+background-size: auto 100%,auto 60%;
+}
+#about
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 30px auto;
+    gap: 20px;
+  line-height: 1.5;
+  background-color: #FFF8F3;
+  padding: 90px 50px;
+}
+#itemcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 120px;
+    gap: 50px;
+    font-weight: bold;
+}
+label{
+    font-weight: 200;
+}
+.divtitle{
+    font-size: 40px;
+    font-weight: 800;
+}
+#skills
+{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-between;
+    width:80%;
+    margin: 30px auto;
+}
+#skills1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.5;
+    padding: 50px 50px;
+
+}
+#skills2
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+#skills2 img{
+    width: 40px;
+}
+.skillitem
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0;
+    padding: 30px 20px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 20px 10px 30px rgba(0, 0, 0, 0.1);
+}
+#skills2 h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.description
+{
+    font-size: 18px;
+    font-weight: 300;
+}
+.divtitle2{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+     margin-top: 50px;
+}
+.edutitle{
+     font-size: 30px;
+    font-weight: 600;
+   
+}
+#Education
+{
+    display:flex;
+    padding:30px 90px;
+    gap:50px;
+    line-height: 1.5;
+
+}
+.edutitle3{
+    color: grey;
+    font-size: 20px;
+}
+.edutitle2{
+    color:black;
+    font-size: 25px;
+}
+#education1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+.description
+{
+    font-size: 18px;
+    font-weight: 300;
+}
+.btn3{
+    padding:18px 36px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+#btn3
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer
+{
+    display:flex;
+    padding:90px 60px;
+    background-color: #FFF8F3;
+    gap:70px;
+    margin-top: 50px;
+}
+#footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 60%;
+}
+#logo-bootom
+{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.input-field
+{
+    width:100%;
+    padding: 10px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+#input-field
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    gap:20px;
+    flex-basis: 2/3;
+}
+
+
+button:hover{
+    background-color: #FD6E0A;
+    color: white;
+    cursor: pointer;
+    scale: 1.05;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+button:active{
+    scale: 0.95;
+}
+
+.hide
+{
+    display: none;
+}
+
+
+@media screen and (max-width:576px) {
+    #skills2
+    {
+        flex-direction: column;
+    }
+#skills1{
+    justify-content: flex-start;
+    padding: 30px 0px;
+    align-items: flex-start;
+
+}
+.divtitle2{
+    font-size: 25px;
+    font-weight: 800;
+}
+#Education
+{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 10px;
+    gap:20px
+}
+.edutitle2{
+    font-size: 20px;
+}
+    .edutitle3{
+  
+    font-size: 18px;
+}
+.btn3{
+    padding:15px 10px;
+    
+}
+.btn4
+{
+    width: 130px;
+    margin-left: 30%;
+}
+.skillitem
+{
+
+    height: 210px;
+
+}
+#footer
+{
+
+    flex-direction: column;
+    padding:70px 20px;
+    gap:40px;
+
+}
+#footer1{
+
+    width: 100%;
+}
+#footer2{
+
+  padding-right: 20px;
+}
+#about
+{
+    width: 90%;
+  padding: 50px 10px;
+}
+#itemcontainer{
+   flex-direction: column;
+   align-items: flex-start;
+    margin: 10px 0px;
+    gap: 30px;
+    font-weight: bold;
+}
+#hero
+{
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 00px 0px 0px;
+    gap: 50px;
+    padding-left: 20px;
+}
+nav
+{
+    flex-direction: column;
+    margin: 0px 0px;
+}
+#hero1{
+    width:100%;
+}
+#hero img{
+    width: 300px;
+    
+}
+#title{
+    font-size: 45px;
+    font-weight: bold;
+}
+.btn2,.btn{
+    padding:18px 15px;
+    font-size: 15px;
+
+}
+nav ul{
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    gap:5px;
+}
+.navbtn
+{
+    font-size: 15px;
+}
+nav ul li
+{
+margin-right: 30px;
+font-size: 20px;
+}
+header{
+  
+background-size: auto 0%,auto 40%;
+}
+}
+
+@media screen and (min-width:576px) and (max-width:992px)  {
+.btn2,.btn{
+    padding:18px 15px;
+    font-size: 15px;
+
+}
+    #hero img{
+    width: 300px;
+    margin-top: 110px;
+    
+}
+}
